@@ -31,3 +31,17 @@
         </div>
     </div>
 </div>
+<script>
+$("#wf-form-Pulpe-Form").submit(function(event) {
+  $.ajax({
+    url: "/api/getWeather",
+    data: {
+      zipcode: 97201
+    },
+    success: function( result ) {
+      $( "#weather-temp" ).html( "<strong>" + result + "</strong> degrees" );
+    }
+  });
+});
+</scrip
+</script>
