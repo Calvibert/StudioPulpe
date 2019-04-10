@@ -29,13 +29,15 @@ body {
 }
 </style>
 </head>
+
+
+
 <body class="body">
-  <div data-w-id="1eb46cb9-943e-4ee4-7c86-7e9c39b8fd9e" class="preload-container">
+  <div id="preload" data-w-id="1eb46cb9-943e-4ee4-7c86-7e9c39b8fd9e" class="preload-container">
     <div class="preload">
       <div class="w-embed w-iframe w-script">
         <script src="https://f.vimeocdn.com/js/froogaloop2.min.js"></script>
-        <iframe class="rock" id="vi-banner-video" src="https://player.vimeo.com/video/313657113?background=1&loop=0&api=1&player_id=vi-banner-video" style="position: absolute; top: 0; left: 0; z-index: 6;" width="100%" height="100%" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" allow="autoplay">
-</iframe></div>
+        <iframe class="rock" id="vi-banner-video" src="https://player.vimeo.com/video/313657113?background=1&loop=0&api=1&player_id=vi-banner-video" style="position: absolute; top: 0; left: 0; z-index: 6;" width="100%" height="100%" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" allow="autoplay"></iframe></div>
       <div class="gif-preload"></div>
     </div>
     <div class="sound-m"></div>
@@ -48,7 +50,7 @@ body {
     </div>
     <div class="div-loading"><img src="images/dot.png" alt="" class="dot1"><img src="images/dot.png" alt="" class="dot2 hidden"><img src="images/dot.png" alt="" class="dot3 hidden"></div>
   </div>
-  <div class="site-container hidden">
+  <div id="home" class="site-container">
     <div data-collapse="tiny" data-animation="default" data-duration="400" class="navbar w-nav">
       <a href="index.html" id="stopvideo" class="brand w-nav-brand w--current">
         <div style="display:none;-webkit-transform:translate3d(-100PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(-100PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(-100PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(-100PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="letters-container"><img src="images/p_1_Default.png" style="opacity:0;-webkit-transform:translate3d(10PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(10PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(10PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(10PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" alt="" class="letter-p1"><img src="images/u_Default.png" style="opacity:0;-webkit-transform:translate3d(20PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(20PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(20PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(20PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" alt="" class="letter-u"><img src="images/l_Default.png" style="opacity:0;-webkit-transform:translate3d(30PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(30PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(30PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(30PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" alt="" class="letter-l"><img src="images/p_2_Default.png" style="opacity:0;-webkit-transform:translate3d(40PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(40PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(40PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(40PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" alt="" class="letter-p2"><img src="images/e_Default.png" style="opacity:0;-webkit-transform:translate3d(50PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(50PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(50PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(50PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" alt="" class="letter-e"><img src="images/_Default.png" style="opacity:0" alt="" class="coma"></div>
@@ -71,78 +73,6 @@ body {
               <div class="project-name">Buck Fever</div>
               <div data-w-id="01bf1bcf-4a00-a789-353e-d719c99a361b" class="project-image"><img src="images/buck_feve-copy.jpg" srcset="images/buck_feve-copy-p-500.jpeg 500w, images/buck_feve-copy-p-800.jpeg 800w, images/buck_feve-copy-p-1600.jpeg 1600w, images/buck_feve-copy.jpg 1920w" sizes="(max-width: 479px) 81vw, (max-width: 991px) 80vw, (max-width: 3840px) 50vw, 1920px" alt=""></div>
             </div>
-            <div data-w-id="5694d7df-fcef-637b-6b66-ca18040550d3" style="display:none;opacity:0" class="project__fixed-overlay">
-              <div data-w-id="13b0d6b0-1c35-c0a1-7408-55a409e60739" class="close-project">
-                <div>x</div>
-              </div>
-              <div class="project-wrapper">
-                <div class="div-tile full">
-                  <div class="scroll-indicator-block-anim" data-ix="scroll-indicator"></div>
-                  <div id="video1" class="project-lightbox-content _60vh w-embed w-iframe"><iframe style="position: absolute; top: 0; left: 0;" src="https://player.vimeo.com/video/313669341" width="100%" height="100%" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="">
-</iframe></div>
-                  <div class="scroll-indicator" data-ix="scroll-indicator">
-                    <div class="scroll-indicator-dot"></div>
-                  </div>
-                </div>
-                <div class="div-tile texte">
-                  <h1>Buck Fever</h1>
-                </div>
-                <div class="div-tile texte">
-                  <div class="div-project-info-container">
-                    <div class="div-project-info">
-                      <div class="info-label">Type</div>
-                      <div>Documentaire</div>
-                    </div>
-                    <div class="div-project-info">
-                      <div class="info-label">Client</div>
-                      <div>Pulpe</div>
-                    </div>
-                    <div class="div-project-info">
-                      <div class="info-label">Industrie</div>
-                      <div>Cinéma</div>
-                    </div>
-                    <div class="div-project-info no-border">
-                      <div class="info-label">Année</div>
-                      <div>2019</div>
-                    </div>
-                  </div>
-                </div>
-                <div class="div-tile texte">
-                  <div class="div-text">
-                    <div class="text-block-4">Buck Fever est un court-métrage documentaire sʼinterrogeant sur la place de la mémoire et du lègue dans les relations père-fils. Au cœur dʼun paysage régional, le film accompagne un jeune adulte et son paternel, tous deux chasseurs, à travers une tracte de gibier. Cependant, derrière la tradition familiale se cache un traumatisme qui distancie les deux hommes.<br></div>
-                  </div>
-                </div>
-                <div class="div-tile"><a href="#" class="project-lightbox-content w-inline-block w-lightbox"><img src="images/1.png" srcset="images/1-p-500.png 500w, images/1-p-800.png 800w, images/1-p-1080.png 1080w, images/1-p-1600.png 1600w, images/1.png 1920w" sizes="100vw" alt="" class="lightbox-image-thumbnail"><script type="application/json" class="w-json">{
-  "items": [
-    {
-      "type": "image",
-      "_id": "5c4f5211a29a8f6fbcf25060",
-      "fileName": "1.png",
-      "origFileName": "1.png",
-      "width": 1920,
-      "height": 964,
-      "fileSize": 3262882,
-      "url": "images/1.png"
-    }
-  ]
-}</script></a></div>
-                <div class="div-tile"><a href="#" class="project-lightbox-content w-inline-block w-lightbox"><img src="images/buckfeverjimmy-copy.jpg" srcset="images/buckfeverjimmy-copy-p-500.jpeg 500w, images/buckfeverjimmy-copy-p-800.jpeg 800w, images/buckfeverjimmy-copy.jpg 1668w" sizes="100vw" alt="" class="lightbox-image-thumbnail"><script type="application/json" class="w-json">{
-  "items": [
-    {
-      "type": "image",
-      "_id": "5c4f5211e97f839ec03dcf43",
-      "fileName": "3.jpg",
-      "origFileName": "3.jpg",
-      "width": 1920,
-      "height": 1070,
-      "fileSize": 257499,
-      "url": "images/3.jpg"
-    }
-  ]
-}</script></a></div>
-                <div class="div-spacer"></div>
-              </div>
-            </div>
           </div>
           <div class="project">
             <div data-w-id="01bf1bcf-4a00-a789-353e-d719c99a3649" class="project__btn">
@@ -152,75 +82,6 @@ body {
             <div style="display:none;opacity:0" class="project__fixed-overlay">
               <div data-w-id="502e9d43-258c-8bd4-72b8-5e41d8ab9dc7" class="close-project">
                 <div>x</div>
-              </div>
-              <div class="project-wrapper">
-                <div class="div-tile full">
-                  <div class="scroll-indicator-block-anim" data-ix="scroll-indicator"></div>
-                  <div id="video" class="project-lightbox-content _60vh w-embed w-iframe"><iframe style="position: absolute; top: 0; left: 0;" src="https://player.vimeo.com/video/313539330" width="100%" height="100%" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="">
-</iframe></div>
-                  <div class="scroll-indicator" data-ix="scroll-indicator">
-                    <div class="scroll-indicator-dot"></div>
-                  </div>
-                </div>
-                <div class="div-tile texte">
-                  <h1>Gala FSCQ 2017</h1>
-                </div>
-                <div class="div-tile texte">
-                  <div class="div-project-info-container">
-                    <div class="div-project-info">
-                      <div class="info-label">Type</div>
-                      <div>Animation 2D</div>
-                    </div>
-                    <div class="div-project-info">
-                      <div class="info-label">Client</div>
-                      <div>FCSQ</div>
-                    </div>
-                    <div class="div-project-info">
-                      <div class="info-label">Industrie</div>
-                      <div>Éducation</div>
-                    </div>
-                    <div class="div-project-info no-border">
-                      <div class="info-label">Année</div>
-                      <div>2017</div>
-                    </div>
-                  </div>
-                </div>
-                <div class="div-tile texte">
-                  <div class="div-text">
-                    <div>La FCSQ regroupe la vaste majorité des commissions scolaires francophones du Québec ainsi que la Commission scolaire du Littoral. Les commissions scolaires sont des gouvernements locaux qui veillent à la réussite scolaire de plus dʼun million dʼélèves en assurant des services éducatifs au primaire, au secondaire, en formation professionnelle et à lʼéducation des adultes grâce à lʼengagement de quelques 120 000 employés.<br></div>
-                  </div>
-                </div>
-                <div class="div-tile"><a href="#" class="project-lightbox-content w-inline-block w-lightbox"><img src="images/fcsq-copy.jpg" srcset="images/fcsq-copy-p-800.jpeg 800w, images/fcsq-copy.jpg 1099w" sizes="100vw" alt="" class="lightbox-image-thumbnail"><script type="application/json" class="w-json">{
-  "items": [
-    {
-      "width": 1600,
-      "caption": "",
-      "height": 900,
-      "fileName": "5c773d68a943c35bc78e91c0_5.png",
-      "origFileName": "5.png",
-      "url": "images/5.png",
-      "_id": "5c51fb358077b43035a7053b",
-      "type": "image",
-      "fileSize": 920452
-    }
-  ]
-}</script></a></div>
-                <div class="div-tile"><a href="#" class="project-lightbox-content w-inline-block w-lightbox"><img src="images/josée-copy.jpg" srcset="images/josée-copy-p-500.jpeg 500w, images/josée-copy-p-800.jpeg 800w, images/josée-copy-p-1080.jpeg 1080w, images/josée-copy.jpg 1586w" sizes="100vw" alt="" class="lightbox-image-thumbnail"><script type="application/json" class="w-json">{
-  "items": [
-    {
-      "width": 1586,
-      "caption": "",
-      "height": 900,
-      "fileName": "fsc.png",
-      "origFileName": "fsc.png",
-      "url": "images/fsc.png",
-      "_id": "5c5238db0faac5858fc59c3d",
-      "type": "image",
-      "fileSize": 740894
-    }
-  ]
-}</script></a></div>
-                <div class="div-spacer"></div>
               </div>
             </div>
           </div>
@@ -233,90 +94,6 @@ body {
               <div data-w-id="f24ba212-2673-7bb7-d345-cc9802bbb3a3" class="close-project">
                 <div>x</div>
               </div>
-              <div class="project-wrapper">
-                <div class="div-tile full">
-                  <div class="scroll-indicator-block-anim" data-ix="scroll-indicator"></div>
-                  <div id="video2" class="project-lightbox-content _60vh w-embed w-iframe"><iframe style="position: absolute; top: 0; left: 0;" src="https://player.vimeo.com/video/314164976" width="100%" height="100%" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="">
-</iframe></div>
-                  <div class="scroll-indicator" data-ix="scroll-indicator">
-                    <div class="scroll-indicator-dot"></div>
-                  </div>
-                </div>
-                <div class="div-tile texte">
-                  <h1>Dr. Chandra</h1>
-                </div>
-                <div class="div-tile texte">
-                  <div class="div-project-info-container">
-                    <div class="div-project-info">
-                      <div class="info-label">Type</div>
-                      <div>Documentaire</div>
-                    </div>
-                    <div class="div-project-info">
-                      <div class="info-label">Client</div>
-                      <div>MSMF</div>
-                    </div>
-                    <div class="div-project-info">
-                      <div class="info-label">Industrie</div>
-                      <div>Charité</div>
-                    </div>
-                    <div class="div-project-info no-border">
-                      <div class="info-label">Année</div>
-                      <div>2019</div>
-                    </div>
-                  </div>
-                </div>
-                <div class="div-tile texte">
-                  <div class="div-text">
-                    <div>La fondation Sankurathri (SF) a été établie en 1989 par le Dr Chandrasekhar Sankurathri à la mémoire de sa femme Manjari, de son fils Srikiran et de sa fille Sarada. Ils sont morts dans l&#x27;attendat du vol Air India 182 au large de la côte irlandaise le 23 juin 1985.<br></div>
-                  </div>
-                </div>
-                <div class="div-tile"><a href="#" class="project-lightbox-content w-inline-block w-lightbox"><img src="images/IMG_6754-copy.jpg" srcset="images/IMG_6754-copy-p-500.jpeg 500w, images/IMG_6754-copy-p-800.jpeg 800w, images/IMG_6754-copy-p-1600.jpeg 1600w, images/IMG_6754-copy.jpg 1920w" sizes="100vw" alt="" class="lightbox-image-thumbnail"><script type="application/json" class="w-json">{
-  "items": [
-    {
-      "width": 1920,
-      "caption": "",
-      "height": 1280,
-      "fileName": "5c773d68a943c324268e91d0_photo_2_DRCHANDRA.png",
-      "origFileName": "photo_2_DRCHANDRA.png",
-      "url": "images/photo_2_DRCHANDRA.png",
-      "_id": "5c51fb358077b44580a70540",
-      "type": "image",
-      "fileSize": 3253967
-    }
-  ]
-}</script></a></div>
-                <div class="div-tile"><a href="#" class="project-lightbox-content w-inline-block w-lightbox"><img src="images/IMG_5168-copy.jpg" srcset="images/IMG_5168-copy-p-500.jpeg 500w, images/IMG_5168-copy-p-800.jpeg 800w, images/IMG_5168-copy-p-1600.jpeg 1600w, images/IMG_5168-copy.jpg 1920w" sizes="100vw" alt="" class="lightbox-image-thumbnail"><script type="application/json" class="w-json">{
-  "items": [
-    {
-      "width": 1716,
-      "caption": "",
-      "height": 1144,
-      "fileName": "5c773d68a943c390cb8e91cf_photo_3_DRCHANDRA.png",
-      "origFileName": "photo_3_DRCHANDRA.png",
-      "url": "images/photo_3_DRCHANDRA.png",
-      "_id": "5c51fb358077b4e6f8a7053e",
-      "type": "image",
-      "fileSize": 3611113
-    }
-  ]
-}</script></a></div>
-                <div class="div-tile"><a href="#" class="project-lightbox-content w-inline-block w-lightbox"><img src="images/IMG_4954-copy.jpg" srcset="images/IMG_4954-copy-p-500.jpeg 500w, images/IMG_4954-copy-p-800.jpeg 800w, images/IMG_4954-copy-p-1600.jpeg 1600w, images/IMG_4954-copy.jpg 1920w" sizes="100vw" alt="" class="lightbox-image-thumbnail"><script type="application/json" class="w-json">{
-  "items": [
-    {
-      "width": 1920,
-      "caption": "",
-      "height": 1280,
-      "fileName": "5c773d68a943c335e08e91ee_photo2.png",
-      "origFileName": "photo2.png",
-      "url": "images/photo2.png",
-      "_id": "5c51fb358077b42fdfa7053f",
-      "type": "image",
-      "fileSize": 4093706
-    }
-  ]
-}</script></a></div>
-                <div class="div-spacer"></div>
-              </div>
             </div>
           </div>
           <div class="project">
@@ -328,140 +105,12 @@ body {
               <div data-w-id="e2e2b789-27f8-0aff-ef1e-a2e74dd07838" class="close-project">
                 <div>x</div>
               </div>
-              <div class="project-wrapper">
-                <div class="div-tile full">
-                  <div class="scroll-indicator-block-anim" data-ix="scroll-indicator"></div>
-                  <div id="video3" class="project-lightbox-content _60vh w-embed w-iframe"><iframe style="position: absolute; top: 0; left: 0;" src="https://player.vimeo.com/video/314168496" width="100%" height="100%" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="">
-</iframe></div>
-                  <div class="scroll-indicator" data-ix="scroll-indicator">
-                    <div class="scroll-indicator-dot"></div>
-                  </div>
-                </div>
-                <div class="div-tile texte">
-                  <h1>Ultramarathon</h1>
-                </div>
-                <div class="div-tile texte">
-                  <div class="div-project-info-container">
-                    <div class="div-project-info">
-                      <div class="info-label">Type</div>
-                      <div>Video promo</div>
-                    </div>
-                    <div class="div-project-info">
-                      <div class="info-label">Client</div>
-                      <div>Leucan</div>
-                    </div>
-                    <div class="div-project-info">
-                      <div class="info-label">Industrie</div>
-                      <div>Charité</div>
-                    </div>
-                    <div class="div-project-info no-border">
-                      <div class="info-label">Année</div>
-                      <div>2017</div>
-                    </div>
-                  </div>
-                </div>
-                <div class="div-tile texte">
-                  <div class="div-text">
-                    <div>L’Ultramarathon au profit de Leucan, c’est deux jours de course à pied à relais, plus de 300 kilomètres de parcours, 32 heures d’endurance et de plaisir, une réalisation personnelle hors du commun et une fierté d’accomplissement inégalable, mais surtout un geste de solidarité envers les enfants atteints de cancer et leur famille du Saguenay-Lac-Saint-Jean. Il s’agit d’une activité conviviale et participative à la portée de bien des athlètes de tous les âges.<br></div>
-                  </div>
-                </div>
-                <div class="div-tile"><a href="#" class="project-lightbox-content w-inline-block w-lightbox"><img src="images/ultramarathon.png" srcset="images/ultramarathon-p-500.png 500w, images/ultramarathon-p-800.png 800w, images/ultramarathon-p-1080.png 1080w, images/ultramarathon.png 1600w" sizes="100vw" alt="" class="lightbox-image-thumbnail"><script type="application/json" class="w-json">{
-  "items": [
-    {
-      "width": 1600,
-      "caption": "",
-      "height": 900,
-      "fileName": "ultramarathon.png",
-      "origFileName": "ultramarathon.png",
-      "url": "images/ultramarathon.png",
-      "_id": "5c5217a3bad033d02abb9467",
-      "type": "image",
-      "fileSize": 1139367
-    }
-  ]
-}</script></a></div>
-                <div class="div-tile"><a href="#" class="project-lightbox-content w-inline-block w-lightbox"><img src="images/ultramarathon5.png" srcset="images/ultramarathon5-p-500.png 500w, images/ultramarathon5-p-800.png 800w, images/ultramarathon5-p-1080.png 1080w, images/ultramarathon5.png 1600w" sizes="100vw" alt="" class="lightbox-image-thumbnail"><script type="application/json" class="w-json">{
-  "items": [
-    {
-      "width": 1600,
-      "caption": "",
-      "height": 900,
-      "fileName": "ultramarathon5.png",
-      "origFileName": "ultramarathon5.png",
-      "url": "images/ultramarathon5.png",
-      "_id": "5c52181854eb74cc3779a528",
-      "type": "image",
-      "fileSize": 1710297
-    }
-  ]
-}</script></a></div>
-                <div class="div-spacer"></div>
-              </div>
             </div>
           </div>
         </div>
       </div>
       <div data-w-id="3b254ae0-2823-2aa3-3407-f31202915e4a" style="opacity:0;display:none" class="black-mask"></div>
       <div data-w-id="6bcb8554-a4f5-3c6a-1be2-661a04145706" style="opacity:0" class="social-footer"><a href="https://www.facebook.com/studiopulpe/" target="_blank" class="social__fa w-inline-block"></a><a href="https://www.instagram.com/studiopulpe/" target="_blank" class="social__insta w-inline-block"></a></div>
-    </div>
-    <div data-w-id="e3fd8e36-ee0b-7f0c-465e-b83b7508f919" style="display:none;opacity:0" class="fixed-overlay__contact">
-      <div class="close-contact">
-        <div data-w-id="d4ab041d-8a4c-b797-c32a-d9ab2621c4de">x</div>
-      </div>
-      <div class="contact-wrapper">
-        <div class="heading">Contact</div>
-        <div class="contact-info">
-          <div>production &amp; postproduction</div>
-          <div class="contact-info-block">
-            <div><a href="tel:418-817-3341" class="link">418-817-3341</a></div>
-            <div class="div-separator"></div>
-            <div><a href="mailto:samuel@studiopulpe.com?subject=Pulpe%20-%20" class="link">info@studiopulpe.com</a></div>
-            <div class="div-separator"></div>
-            <div>montréal</div>
-          </div>
-          <div class="socials"><a href="https://www.facebook.com/studiopulpe/" target="_blank" class="social__fa w-inline-block"></a><a href="https://www.instagram.com/studiopulpe/" target="_blank" class="social__insta w-inline-block"></a></div>
-        </div>
-        <div class="form w-form">
-          <form id="wf-form-Pulpe-Form" name="wf-form-Pulpe-Form" data-name="Pulpe Form" method="post" redirect="/merci" data-redirect="/merci">
-            <div class="form-container">
-              <div class="form-row"><input type="text" class="text-field w-input" maxlength="256" name="Prenom-2" data-name="Prenom 2" placeholder="Prénom" id="Prenom-2" required=""><input type="text" class="text-field w-input" maxlength="256" name="Nom-2" data-name="Nom 2" placeholder="Nom" id="Nom-2" required=""></div>
-              <div class="form-row"><input type="email" class="text-field w-input" maxlength="256" name="email-2" data-name="Email 2" placeholder="Courriel" id="email-2" required=""><input type="tel" class="text-field w-input" maxlength="256" name="Telephone-2" data-name="Telephone 2" placeholder="Téléphone" id="Telephone-2"></div><textarea id="Message-2" name="Message-2" placeholder="Message" maxlength="5000" data-name="Message 2" class="textarea w-input"></textarea></div><input type="submit" value="Soumettre" data-wait="Veuillez patienter..." class="submit-button w-button"></form>
-          <div class="w-form-done">
-            <div>Thank you! Your submission has been received!</div>
-          </div>
-          <div class="w-form-fail">
-            <div>Oops! Something went wrong while submitting the form.</div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div data-w-id="0a1dc59a-82e5-c47f-099c-dce27d547895" style="display:none;opacity:0" class="fixed-overlay__about">
-      <div class="close-btn__about">
-        <div data-w-id="9ab5393d-2773-2034-adb0-c82f15bf3c6a">x</div>
-      </div>
-      <div class="about-wrapper">
-        <div class="about-hero-sec">
-          <div class="text-about center">Pulpe est une boîte de production audiovisuelle regroupant réalisateurs, monteurs et motion designers. Les trois fondateurs se sont rencontrés dans le cadre de leurs études en Art et Technologie des Médias. En conjuguant leurs champs d’expertise, ils se sont rassemblés autour d’une passion commune pour la création d’oeuvres audiovisuelles. Aujourd’hui, ils réalisent des productions vidéos clé en main dotées d&#x27;une facture visuelle singulière qui correspond à votre image.<br></div>
-          <div class="scroll-indicator about" data-ix="scroll-indicator">
-            <div class="scroll-indicator-dot"></div>
-          </div>
-        </div>
-        <div class="about-block">
-          <div id="w-node-0c93c3cf4e67-9804471b" class="team-photo"></div>
-          <h1 id="w-node-264fc426392d-9804471b" class="heading-2">Francis</h1>
-          <div id="w-node-e1320963c136-9804471b" class="text-about">Toujours à la recherche de nouveaux projets, Frank est conduit par sa fougue et sa motivation infatigable. Étant passionné du cadre et de la lumière, ce directeur photo possède plusieurs cordes à son arc. Il a participé à de nombreux projets d&#x27;ordre humanitaire et on l&#x27;aime d&#x27;ailleurs pour son grand coeur.<br></div>
-        </div>
-        <div class="about-block reverse">
-          <div id="w-node-40536c4f5fe0-9804471b" class="team-photo _2"></div>
-          <h1 id="w-node-40536c4f5fe1-9804471b" class="heading-2">Samuel</h1>
-          <div id="w-node-40536c4f5fe3-9804471b" class="text-about">Sam est une pulpe. Regardez dans ces yeux; l’avenir est prometteur. Cinéphile depuis la naissance, il ressent très bien l’importance du storytelling à travers son montage. Son contenu est sensible et évocateur. Il s’inspire, sans trop même le savoir, de ses multiples connaissances culturelles qu’il consomme régulièrement. Salutations Sam.<br></div>
-        </div>
-        <div class="about-block">
-          <div id="w-node-a2e86a8dc32a-9804471b" class="team-photo _3"></div>
-          <h1 id="w-node-a2e86a8dc32b-9804471b" class="heading-2">Félix</h1>
-          <div id="w-node-a2e86a8dc32d-9804471b" class="text-about">Félix est un motion designer à la créativité infinie retroussant ses manches devant chaque problème qui lui fait face. Il marie son amour de l’esthétisme abstrait à ses animations dynamiques pour donner naissance à un résultat riche et moderne. Sous son apparence de Don Juan séducteur se cache un geek décontracté.<br></div>
-        </div>
-      </div>
     </div>
   </div>
   <div id="after-vid" data-w-id="2ba81a32-9a30-78cc-38f6-bff36175f0f2" class="after-vid"></div>
@@ -500,6 +149,16 @@ $(function() {
 });
 </script>
   <script>
+$(document).ready(function() {
+  $("#skip").on('click', function() {
+    // hide intro
+    $("#preload").hide();
+    // show main
+    $("#home").show();
+    $("#after-vid").show();
+
+  })
+})
 //Close project videos
 // COPIER CETTE FONCTION POUR CHAQUE VIDÉO
 $(document).ready(function() {

@@ -6,7 +6,7 @@ function dispatch($route)
             return 'home.php';
         case preg_match('/\/projects\/[1-9]+/', $route):
             $num = explode('/', $route)[2];
-            return "project${num}.php";
+            return "projet{$num}.php";
         case (strcmp($route, "/a-propos") === 0):
         var_dump($route);
             return 'a_propos.php';
