@@ -43,5 +43,4 @@ $("#wf-form-Pulpe-Form").submit(function(event) {
     }
   });
 });
-</scrip
 </script>
