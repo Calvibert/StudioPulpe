@@ -34,7 +34,7 @@ body {
     <div class="preload">
       <div class="w-embed w-iframe w-script">
         <script src="https://f.vimeocdn.com/js/froogaloop2.min.js"></script>
-        <iframe class="rock" id="vi-banner-video" src="https://player.vimeo.com/video/313657113?background=1&loop=0&api=1&player_id=vi-banner-video" style="position: absolute; top: 0; left: 0; z-index: 6;" width="100%" height="100%" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="">
+        <iframe class="rock" id="vi-banner-video" src="https://player.vimeo.com/video/313657113?background=1&loop=0&api=1&player_id=vi-banner-video" style="position: absolute; top: 0; left: 0; z-index: 6;" width="100%" height="100%" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" allow="autoplay">
 </iframe></div>
       <div class="gif-preload"></div>
     </div>
@@ -466,7 +466,7 @@ body {
   </div>
   <div id="after-vid" data-w-id="2ba81a32-9a30-78cc-38f6-bff36175f0f2" class="after-vid"></div>
   <script src="https://d1tdp7z6w94jbb.cloudfront.net/js/jquery-3.3.1.min.js" type="text/javascript" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-  <script src="js/webflow.js" type="text/javascript"></script>
+  <script src="/js/webflow.js" type="text/javascript"></script>
   <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
   <!-- <script
   src="https://code.jquery.com/jquery-3.3.1.js"
@@ -480,16 +480,16 @@ $(function() {
         player.addEvent('finish', onFinish);
         player.api('setVolume', 0);
     });
-    $('#skip').bind('click', function() {
+    $('#skip').on('click', function() {
         player.api('pause');
         document.getElementById('after-vid').click();
     });
-    $('#volume-off').bind('click', function() {
+    $('#volume-off').on('click', function() {
         player.api('setVolume', 1);
         $("#volume-off").css({display: "none"});
         $("#volume-on").css({display: "block"});
     });
-    $('#volume-on').bind('click', function() {
+    $('#volume-on').on('click', function() {
         player.api('setVolume', 0);
         $("#volume-off").css({display: "block"});
         $("#volume-on").css({display: "none"});

@@ -1,6 +1,8 @@
 <?php
+require 'router.php';
 
 $route = $_SERVER['REQUEST_URI'];
 
-echo $route;
+$file = dispatch($route);
 
+require $file;
