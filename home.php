@@ -116,13 +116,13 @@
         <div class="projects-listing">
           <div class="project">
             <div class="project__btn">
-              <div class="project-name">Buck Fever</div>
+              <div class="project-name"><a href="/projet/1" style="text-decoration:none; color: #fff">Buck Fever</a></div>
               <div class="project-image"><img src="/images/buck_feve-copy.jpg" srcset="/images/buck_feve-copy-p-500.jpeg 500w, /images/buck_feve-copy-p-800.jpeg 800w, /images/buck_feve-copy-p-1600.jpeg 1600w, /images/buck_feve-copy.jpg 1920w" sizes="(max-width: 479px) 81vw, (max-width: 991px) 80vw, (max-width: 3840px) 50vw, 1920px" alt=""></div>
             </div>
           </div>
           <div class="project">
             <div class="project__btn">
-              <div class="project-name">Gala FCSQ 2017</div>
+              <div class="project-name"><a href="/projet/2" style="text-decoration:none; color: #fff">Gala FCSQ 2017</a></div>
               <div class="project-image"><img src="/images/Intro-Cuisine-Collective_00161.jpg" srcset="/images/Intro-Cuisine-Collective_00161-p-500.jpeg 500w, /images/Intro-Cuisine-Collective_00161-p-800.jpeg 800w, /images/Intro-Cuisine-Collective_00161-p-1600.jpeg 1600w, /images/Intro-Cuisine-Collective_00161.jpg 1920w" sizes="(max-width: 479px) 81vw, (max-width: 991px) 80vw, (max-width: 3840px) 50vw, 1920px" alt=""></div>
             </div>
             <div style="display:none;" class="project__fixed-overlay">
@@ -133,7 +133,7 @@
           </div>
           <div class="project">
             <div class="project__btn">
-              <div class="project-name">DR. CHANDRA</div>
+              <div class="project-name"><a href="/projet/3" style="text-decoration:none; color: #fff">DR. CHANDRA</a></div>
               <div class="project-image"><img src="/images/thumbnail-inde-copy.jpg" srcset="/images/thumbnail-inde-copy-p-500.jpeg 500w, /images/thumbnail-inde-copy-p-800.jpeg 800w, /images/thumbnail-inde-copy-p-1600.jpeg 1600w, /images/thumbnail-inde-copy.jpg 1920w" sizes="(max-width: 479px) 81vw, (max-width: 991px) 80vw, (max-width: 3840px) 50vw, 1920px" alt=""></div>
             </div>
             <div style="display:none;" class="project__fixed-overlay">
@@ -144,7 +144,7 @@
           </div>
           <div class="project">
             <div class="project__btn">
-              <div class="project-name">Ultramarathon</div>
+              <div class="project-name"><a href="/projet/4" style="text-decoration:none; color: #fff">Ultramarathon</a></div>
               <div class="project-image"><img src="/images/matathon-copy.jpg" srcset="/images/matathon-copy-p-800.jpeg 800w, /images/matathon-copy-p-1600.jpeg 1600w, /images/matathon-copy.jpg 1920w" sizes="(max-width: 479px) 81vw, (max-width: 991px) 80vw, (max-width: 3840px) 50vw, 1920px" alt=""></div>
             </div>
             <div style="display:none;" class="project__fixed-overlay">
@@ -204,6 +204,7 @@
         // show main
         $("#home").fadeTo(500, 1);
         $("#after-vid").fadeTo(500, 1);
+        $("#preload").hide();
       }
     });
   </script>
@@ -215,7 +216,7 @@
         // show main
         $("#home").fadeTo(500, 1);
         $("#after-vid").fadeTo(500, 1);
-
+        $("#preload").hide();
       })
     })
     //Close project videos

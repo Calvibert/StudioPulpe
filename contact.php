@@ -7,9 +7,9 @@
     <meta content="https://i.ibb.co/xJPdZWh/51495299-612082629213756-1802479610990952448-n.png" property="og:image">
     <meta content="summary" name="twitter:card">
     <meta content="width=device-width, initial-scale=1" name="viewport">
-    <link href="css/normalize.css" rel="stylesheet" type="text/css">
-    <link href="css/webflow.css" rel="stylesheet" type="text/css">
-    <link href="css/studiopulpev3.webflow.css" rel="stylesheet" type="text/css">
+    <link href="/css/normalize.css" rel="stylesheet" type="text/css">
+    <link href="/css/webflow.css" rel="stylesheet" type="text/css">
+    <link href="/css/studiopulpev3.webflow.css" rel="stylesheet" type="text/css">
     <style>
         @media (min-width:992px) {
             html.w-mod-js [data-w-id="01bf1bcf-4a00-a789-353e-d719c99a361b"] {
@@ -45,8 +45,8 @@
             n.className += t + "js", ("ontouchstart" in o || o.DocumentTouch && c instanceof DocumentTouch) && (n.className += t + "touch")
         }(window, document);
     </script>
-    <link href="images/pulpe_logo_v05.png" rel="shortcut icon" type="image/x-icon">
-    <link href="images/webclip.png" rel="apple-touch-icon">
+    <link href="/images/pulpe_logo_v05.png" rel="shortcut icon" type="image/x-icon">
+    <link href="/images/webclip.png" rel="apple-touch-icon">
     <style type="text/css">
 
     </style>
