@@ -44,12 +44,6 @@
                     <div class="form-row"><input type="email" class="text-field w-input" maxlength="256" name="email-2" data-name="Email 2" placeholder="Courriel" id="email-2" required=""><input type="tel" class="text-field w-input" maxlength="256" name="Telephone-2" data-name="Telephone 2" placeholder="Téléphone" id="Telephone-2"></div><textarea id="Message-2" name="Message-2" placeholder="Message" maxlength="5000" data-name="Message 2" class="textarea w-input"></textarea>
                 </div><input type="submit" value="Soumettre" data-wait="Veuillez patienter..." class="submit-button w-button">
             </form>
-            <div>
-                <div>Thank you! Your submission has been received!</div>
-            </div>
-            <div>
-                <div>Oops! Something went wrong while submitting the form.</div>
-            </div>
         </div>
     </div>
 </div>
