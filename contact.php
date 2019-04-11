@@ -54,15 +54,30 @@
     </div>
 </div>
 <script>
-$("#wf-form-Pulpe-Form").submit(function(event) {
-  $.ajax({
-    url: "/api/getWeather",
-    data: {
-      zipcode: 97201
-    },
-    success: function( result ) {
-      $( "#weather-temp" ).html( "<strong>" + result + "</strong> degrees" );
+function postForm(url = ``, data = {}) {
+    return fetch(url, {
+        method: "POST",
+        mode: "cors",
+        cache: "no-cache",
+        credentials: "same-origin",
+        headers: {
+            "Content-Type": "application/x-www-form-urlencoded",
+        },
+        redirect: "follow",
+        referrer: "no-referrer",
+        body: JSON.stringify(data),
+    })
+    .then(response => response.json()); 
+}
+document.getElementById("wf-form-Pulpe-Form").addEventListener('submit', function(evt) {
+    data = {
+        prenom: evt.target[0].value,
+        nom: evt.target[1].value,
+        email: evt.target[2].value,
+        telepone: evt.target[3].value,
+        text: evt.target[4].value
     }
-  });
-});
+    console.log(data)
+    postForm('/index.php', data).then(response => console.log(response))
+})
 </script>
