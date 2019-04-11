@@ -1086,7 +1086,6 @@ h1 {
   right: 0%;
   bottom: auto;
   z-index: 200;
-  display: none;
   width: 100%;
   min-height: 100vh;
 }
