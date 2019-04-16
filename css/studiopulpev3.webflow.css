@@ -1095,7 +1095,7 @@ h1 {
   display: -ms-flexbox;
   display: flex;
   min-height: 100vh;
-  padding-top: 200px;
+  padding-top: 150px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -1920,6 +1920,55 @@ h1 {
     width: 50px;
     height: 50px;
   }
+}
+
+
+.div-projects-container.with-image-BUCK_FEVER::after {
+  content: "";
+  background: url('/images/buck_feve-copy.jpg');
+  background-size: 100% 100%;
+  opacity: 0.25;
+  width: 631.333px;
+  height: 350.778px;
+  position:absolute;
+  top: 140.1px;
+  z-index: -1;
+}
+
+.div-projects-container.with-image-DR_CHANDRA::after {
+  content: "";
+  background: url('/images/thumbnail-inde-copy.jpg');
+  background-size: 100% 100%;
+  opacity: 0.25;
+  width: 631.333px;
+  height: 350.778px;
+  position:absolute;
+  top: 140.1px;
+  z-index: -1;
+}
+
+.div-projects-container.with-image-GALA_FCSQ_2017::after {
+  content: "";
+  background: url('/images/Intro-Cuisine-Collective_00161.jpg');
+  background-size: 100% 100%;
+  opacity: 0.25;
+  width: 631.333px;
+  height: 350.778px;
+  position:absolute;
+  top: 140.1px;
+  z-index: -1;
+}
+
+.div-projects-container.with-image-ULTRAMARATHON::after {
+  content: "";
+  background: url('/images/matathon-copy.jpg');
+  background-size: 100% 100%;
+  opacity: 0.25;
+  width: 631.333px;
+  height: 350.778px;
+  position:absolute;
+  top: 140.1px;
+  z-index: -1;
 }
 
 #w-node-6a4d5e0fb200-36cbf840 {

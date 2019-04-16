@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+<html>
+
 <head>
     <meta charset="utf-8">
     <title>Studio Pulpe</title>
@@ -10,25 +13,6 @@
     <link href="/css/normalize.css" rel="stylesheet" type="text/css">
     <link href="/css/webflow.css" rel="stylesheet" type="text/css">
     <link href="/css/studiopulpev3.webflow.css" rel="stylesheet" type="text/css">
-    <style>
-        @media (min-width:992px) {
-            html.w-mod-js [data-w-id="01bf1bcf-4a00-a789-353e-d719c99a361b"] {
-                opacity: 0;
-            }
-
-            html.w-mod-js [data-w-id="01bf1bcf-4a00-a789-353e-d719c99a364c"] {
-                opacity: 0;
-            }
-
-            html.w-mod-js [data-w-id="01bf1bcf-4a00-a789-353e-d719c99a367d"] {
-                opacity: 0;
-            }
-
-            html.w-mod-js [data-w-id="01bf1bcf-4a00-a789-353e-d719c99a36b1"] {
-                opacity: 0;
-            }
-        }
-    </style>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js" type="text/javascript"></script>
     <script type="text/javascript">
         WebFont.load({
@@ -37,7 +21,6 @@
             }
         });
     </script>
-    <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
     <script type="text/javascript">
         ! function(o, c) {
             var n = c.documentElement,
@@ -52,18 +35,11 @@
     </style>
 </head>
 
-
+<body>
 <div class="fixed-overlay__contact">
     <div data-collapse="tiny" data-animation="default" data-duration="400" class="navbar w-nav">
         <a href="/" id="stopvideo" class="brand w-nav-brand w--current">
-            <div style="-webkit-transform:translate3d(-100PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(-100PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(-100PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(-100PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="letters-container">
-                <img src="/images/p_1_Default.png" style="-webkit-transform:translate3d(10PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(10PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(10PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(10PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" alt="" class="letter-p1">
-                <img src="/images/u_Default.png" style="-webkit-transform:translate3d(20PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(20PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(20PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(20PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" alt="" class="letter-u">
-                <img src="/images/l_Default.png" style="-webkit-transform:translate3d(30PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(30PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(30PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(30PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" alt="" class="letter-l">
-                <img src="/images/p_2_Default.png" style="-webkit-transform:translate3d(40PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(40PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(40PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(40PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" alt="" class="letter-p2">
-                <img src="/images/e_Default.png" style="-webkit-transform:translate3d(50PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(50PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(50PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(50PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" alt="" class="letter-e">
-                <img src="/images/_Default.png" alt="" class="coma">
-            </div>
+            <?php require("./components/logo.html") ?>
         </a>
         <nav role="navigation" class="nav-menu w-nav-menu">
             <a href="/a-propos" id="stopvideo-about" class="nav-link w-nav-link">à Propos</a>
@@ -88,18 +64,19 @@
             </div>
             <div class="socials"><a href="https://www.facebook.com/studiopulpe/" target="_blank" class="social__fa w-inline-block"></a><a href="https://www.instagram.com/studiopulpe/" target="_blank" class="social__insta w-inline-block"></a></div>
         </div>
-        <div>
+        <div style="width:50%">
             <form id="wf-form-Pulpe-Form" name="wf-form-Pulpe-Form" data-name="Pulpe Form" method="post" redirect="/merci" data-redirect="/merci">
                 <div class="form-container">
                     <div class="form-row"><input type="text" class="text-field w-input" maxlength="256" name="Prenom-2" data-name="Prenom 2" placeholder="Prénom" id="Prenom-2" required=""><input type="text" class="text-field w-input" maxlength="256" name="Nom-2" data-name="Nom 2" placeholder="Nom" id="Nom-2" required=""></div>
                     <div class="form-row"><input type="email" class="text-field w-input" maxlength="256" name="email-2" data-name="Email 2" placeholder="Courriel" id="email-2" required=""><input type="tel" class="text-field w-input" maxlength="256" name="Telephone-2" data-name="Telephone 2" placeholder="Téléphone" id="Telephone-2"></div><textarea id="Message-2" name="Message-2" placeholder="Message" maxlength="5000" data-name="Message 2" class="textarea w-input"></textarea>
                 </div><input type="submit" value="Soumettre" data-wait="Veuillez patienter..." class="submit-button w-button">
             </form>
+            <br/>
         </div>
     </div>
 </div>
+
 <script>
-<<<<<<< HEAD
 function postForm(url = ``, data = {}) {
     return fetch(url, {
         method: "POST",
@@ -127,3 +104,5 @@ document.getElementById("wf-form-Pulpe-Form").addEventListener('submit', functio
     postForm('/index.php', data).then(response => console.log(response))
 })
 </script>
+</body>
+</html>

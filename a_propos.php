@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+<html>
+
 <head>
     <meta charset="utf-8">
     <title>Studio Pulpe</title>
@@ -56,14 +59,7 @@
     <div class="fixed-overlay__about">
         <div data-collapse="tiny" data-animation="default" data-duration="400" class="navbar w-nav">
             <a href="/" id="stopvideo" class="brand w-nav-brand w--current">
-                <div style="-webkit-transform:translate3d(-100PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(-100PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(-100PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(-100PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="letters-container">
-                    <img src="/images/p_1_Default.png" style="-webkit-transform:translate3d(10PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(10PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(10PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(10PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" alt="" class="letter-p1">
-                    <img src="/images/u_Default.png" style="-webkit-transform:translate3d(20PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(20PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(20PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(20PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" alt="" class="letter-u">
-                    <img src="/images/l_Default.png" style="-webkit-transform:translate3d(30PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(30PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(30PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(30PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" alt="" class="letter-l">
-                    <img src="/images/p_2_Default.png" style="-webkit-transform:translate3d(40PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(40PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(40PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(40PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" alt="" class="letter-p2">
-                    <img src="/images/e_Default.png" style="-webkit-transform:translate3d(50PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(50PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(50PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(50PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" alt="" class="letter-e">
-                    <img src="/images/_Default.png" alt="" class="coma">
-                </div>
+                <?php require("./components/logo.html") ?>
             </a>
             <nav role="navigation" class="nav-menu w-nav-menu">
                 <a href="/a-propos" id="stopvideo-about" class="nav-link w-nav-link">à Propos</a>
@@ -78,7 +74,7 @@
         <div class="about-wrapper">
             <div class="about-hero-sec">
                 <div class="text-about center">Pulpe est une boîte de production audiovisuelle regroupant réalisateurs, monteurs et motion designers. Les trois fondateurs se sont rencontrés dans le cadre de leurs études en Art et Technologie des Médias. En conjuguant leurs champs d’expertise, ils se sont rassemblés autour d’une passion commune pour la création d’oeuvres audiovisuelles. Aujourd’hui, ils réalisent des productions vidéos clé en main dotées d&#x27;une facture visuelle singulière qui correspond à votre image.<br></div>
-                <div class="scroll-indicator about" data-ix="scroll-indicator">
+                <div class="scroll-indicator about" data-ix="scroll-indicator" style="transition: opacity 200ms ease 0s; opacity: 1;">
                     <div class="scroll-indicator-dot"></div>
                 </div>
             </div>
@@ -101,3 +97,4 @@
     </div>
 
 </body>
+</html>
