@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 
-<?php require 'head.php'; ?>
+<?php require('./components/head.html'); ?>
 
 <body>
     <div class="fixed-overlay__contact">

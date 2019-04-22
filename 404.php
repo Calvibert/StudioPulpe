@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 
-<?php require 'head.php'; ?>
+<?php require('./components/head.html'); ?>
 
 <body class="body">
   <div data-collapse="medium" data-animation="default" data-duration="400" class="navbar thanks w-nav">
