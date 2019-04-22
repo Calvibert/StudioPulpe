@@ -50,6 +50,6 @@ if ($route === "/contact" && !empty($_POST)) {
     
 }
 
-$file = dispatch($route);
+$file = "./views/".dispatch($route);
 
 require $file;

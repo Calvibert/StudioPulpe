@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
 
-<?php require('./components/head.html'); ?>
+<?php require('./views/components/head.html'); ?>
 
 <body class="body">
   <div data-collapse="medium" data-animation="default" data-duration="400" class="navbar thanks w-nav">
     <a href="index.html" class="brand merci w-nav-brand">
-      <?php require("./components/logo.html") ?>
+      <?php require("./views/components/logo.html") ?>
     </a>
   </div>
   <div class="div-tile merci">

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 
-<?php require('./components/head.html'); ?>
+<?php require('./views/components/head.html'); ?>
 
 <body class="body">
   <!-- video intro -->

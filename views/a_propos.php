@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 
-<?php require('./components/head.html'); ?>
+<?php require('./views/components/head.html'); ?>
 
 <body>
     <div class="fixed-overlay__about">
         <div data-collapse="tiny" data-animation="default" data-duration="400" class="navbar w-nav">
             <a href="/" id="stopvideo" class="brand w-nav-brand w--current">
-                <?php require("./components/logo.html") ?>
+                <?php require("./views/components/logo.html") ?>
             </a>
             <nav role="navigation" class="nav-menu w-nav-menu">
                 <a href="/a-propos" id="stopvideo-about" class="nav-link w-nav-link">à Propos</a>
