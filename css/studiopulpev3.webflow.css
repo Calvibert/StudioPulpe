@@ -1614,7 +1614,7 @@ h1 {
     margin-left: auto;
   }
   .nav-link {
-    padding: 15px;
+    padding: 2px;
   }
   .hero {
     height: auto;
@@ -3427,6 +3427,25 @@ h1 {
   -ms-grid-row-align: start;
   align-self: start;
 }
+
+/* .fa-1x {
+  font-size: 1.5rem;
+  }
+  .navbar-toggler.toggler-example {
+  cursor: pointer;
+  }
+  .dark-blue-text {
+  color: #0A38F5;
+  }
+  .dark-pink-text {
+  color: #AC003A;
+  }
+  .dark-amber-text {
+  color: #ff6f00;
+  }
+  .dark-teal-text {
+  color: #004d40;
+  } */
 
 @media screen and (max-width: 991px) {
   #w-node-a2e86a8dc32d-9804471b {

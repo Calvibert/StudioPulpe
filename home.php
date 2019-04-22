@@ -1,48 +1,7 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-  <meta charset="utf-8">
-  <title>Studio Pulpe</title>
-  <meta content="Pulpe est une boîte de production audiovisuelle regroupant réalisateurs, monteurs et motion designers. Nous réalisons des productions vidéos clé en main dotées d&#x27;une facture visuelle singulière." name="description">
-  <meta content="Studio Pulpe" property="og:title">
-  <meta content="Pulpe est une boîte de production audiovisuelle regroupant réalisateurs, monteurs et motion designers. Nous réalisons des productions vidéos clé en main dotées d&#x27;une facture visuelle singulière." property="og:description">
-  <meta content="https://i.ibb.co/xJPdZWh/51495299-612082629213756-1802479610990952448-n.png" property="og:image">
-  <meta content="summary" name="twitter:card">
-  <meta content="width=device-width, initial-scale=1" name="viewport">
-  <link href="/css/normalize.css" rel="stylesheet" type="text/css">
-  <link href="/css/webflow.css" rel="stylesheet" type="text/css">
-  <link href="/css/studiopulpev3.webflow.css" rel="stylesheet" type="text/css">
-  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js" type="text/javascript"></script>
-  <script type="text/javascript">
-    WebFont.load({
-      google: {
-        families: ["Droid Sans:400,700", "PT Sans:400,400italic,700,700italic"]
-      }
-    });
-  </script>
-  <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
-  <script type="text/javascript">
-    ! function(o, c) {
-      var n = c.documentElement,
-        t = " w-mod-";
-      n.className += t + "js", ("ontouchstart" in o || o.DocumentTouch && c instanceof DocumentTouch) && (n.className += t + "touch")
-    }(window, document);
-  </script>
-  <link href="/images/pulpe_logo_v05.png" rel="shortcut icon" type="image/x-icon">
-  <link href="/images/webclip.png" rel="apple-touch-icon">
-  <style type="text/css">
-    body {
-      overflow-x: hidden;
-    }
-
-    .player .vp-video-wrapper {
-      background-color: #fff;
-    }
-  </style>
-</head>
-
-
+<?php require 'head.php'; ?>
 
 <body class="body">
   <!-- video intro -->
@@ -69,26 +28,20 @@
   <div id="home" class="site-container">
     <div data-collapse="tiny" data-animation="default" data-duration="400" class="navbar w-nav">
       <a href="/" id="stopvideo" class="brand w-nav-brand w--current">
-        <div style="display:none"
-        class="letters-container">
-          <img id="logo-p" style="opacity:0" src="/images/p_1_Default.png" 
-          alt="" class="letter-p1">
-          <img id="logo-u" style="opacity:0" src="/images/u_Default.png" 
-          alt="" class="letter-u">
-          <img id="logo-l" style="opacity:0" src="/images/l_Default.png" 
-          alt="" class="letter-l">
-          <img id="logo-p2" style="opacity:0" src="/images/p_2_Default.png" 
-          alt="" class="letter-p2">
-          <img id="logo-e" style="opacity:0" src="/images/e_Default.png" 
-          alt="" class="letter-e">
+        <div style="display:none" class="letters-container">
+          <img id="logo-p" style="opacity:0" src="/images/p_1_Default.png" alt="" class="letter-p1">
+          <img id="logo-u" style="opacity:0" src="/images/u_Default.png" alt="" class="letter-u">
+          <img id="logo-l" style="opacity:0" src="/images/l_Default.png" alt="" class="letter-l">
+          <img id="logo-p2" style="opacity:0" src="/images/p_2_Default.png" alt="" class="letter-p2">
+          <img id="logo-e" style="opacity:0" src="/images/e_Default.png" alt="" class="letter-e">
           <img id="logo-virgule" style="opacity:0" src="/images/_Default.png" alt="" class="coma">
         </div>
       </a>
       <nav role="navigation" class="nav-menu w-nav-menu">
-        <a href="/a-propos" id="stopvideo-about" class="nav-link w-nav-link">à Propos</a>
-        <a href="/contact" id="stopvideo-contact" class="nav-link w-nav-link">Contact</a>
+        <a href="/a-propos" id="stopvideo-about" data-w-id="d7075c52-82ca-d741-0331-9c17b0ecac46" class="nav-link w-nav-link">à Propos</a>
+        <a href="/contact" id="stopvideo-contact" data-w-id="d7075c52-82ca-d741-0331-9c17b0ecac48" class="nav-link w-nav-link">Contact</a>
       </nav>
-      <div class="menu-button w-nav-button" data-ix="menu-button">
+      <div data-w-id="d7075c52-82ca-d741-0331-9c17b0ecac4a" class="menu-button w-nav-button" data-ix="menu-button">
         <div class="top-line"></div>
         <div class="middle-line"></div>
         <div class="bottom-line"></div>
@@ -208,22 +161,23 @@
         var project = this.innerText;
         project = project.split(" ").join("_");
         project = project.split(".").join("");
-        $(".div-projects-container").addClass('with-image-'+project);
+        $(".div-projects-container").addClass('with-image-' + project);
       }, function() {
         var project = this.innerText;
         project = project.split(" ").join("_");
         project = project.split(".").join("");
-        $(".div-projects-container").removeClass('with-image-'+project);
+        $(".div-projects-container").removeClass('with-image-' + project);
       })
     })
+
     function setLogo() {
       $(".letters-container").show();
-      $("#logo-p").fadeTo(500,1);
-      $("#logo-u").fadeTo(750,1);
-      $("#logo-l").fadeTo(1000,1);
-      $("#logo-p2").fadeTo(1250,1);
-      $("#logo-e").fadeTo(1500,1);
-      $("#logo-virgule").fadeTo(1600,1);
+      $("#logo-p").fadeTo(500, 1);
+      $("#logo-u").fadeTo(750, 1);
+      $("#logo-l").fadeTo(1000, 1);
+      $("#logo-p2").fadeTo(1250, 1);
+      $("#logo-e").fadeTo(1500, 1);
+      $("#logo-virgule").fadeTo(1600, 1);
     }
   </script>
 </body>

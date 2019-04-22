@@ -8,10 +8,11 @@ function dispatch($route)
             $num = explode('/', $route)[2];
             return "projet{$num}.php";
         case (strcmp($route, "/a-propos") === 0):
-        var_dump($route);
             return 'a_propos.php';
         case (strcmp($route, "/contact") === 0):
             return 'contact.php';
+        case (strcmp($route, "/merci") === 0):
+            return 'merci.php';
         default:
             return '404.php';
     }
