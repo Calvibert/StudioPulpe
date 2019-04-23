@@ -135,8 +135,9 @@
         // hide intro
         $("#preload").fadeTo(800, 0);
         // show main
-        $("#home").fadeTo(5000, 1);
+        $("#home").fadeTo(500, 1);
         $("#after-vid").fadeTo(5000, 1);
+        setLogo();
         setTimeout(function() {
           $("#preload").hide();
         }, 700);
@@ -150,7 +151,7 @@
         // show main
         $("#home").fadeTo(500, 1);
         $("#after-vid").fadeTo(5000, 1);
-        setLogo()
+        setLogo();
         setTimeout(function() {
           $("#preload").hide();
         }, 700);
