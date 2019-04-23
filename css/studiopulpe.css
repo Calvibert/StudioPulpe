@@ -160,6 +160,7 @@ h1 {
 }
 
 .nav-link:hover {
+  color: #fff;
   opacity: 1;
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);

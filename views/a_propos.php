@@ -3,7 +3,7 @@
 
 <?php require('./views/components/head.html'); ?>
 
-<body>
+<body class="body">
     <div class="fixed-overlay__about">
         <div data-collapse="tiny" data-animation="default" data-duration="400" class="navbar w-nav">
             <a href="/" id="stopvideo" class="brand w-nav-brand w--current">
