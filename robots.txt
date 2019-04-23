@@ -1,0 +1,3 @@
+Sitemap: http://www.studiopulpe.com/sitemap.xml
+User-agent: *
+Disallow:
