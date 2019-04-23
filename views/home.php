@@ -158,17 +158,19 @@
       })
     })
     $(document).ready(function() {
-      $(".project").hover(function() {
-        var project = this.innerText;
-        project = project.split(" ").join("_");
-        project = project.split(".").join("");
-        $(".div-projects-container").addClass('with-image-' + project);
-      }, function() {
-        var project = this.innerText;
-        project = project.split(" ").join("_");
-        project = project.split(".").join("");
-        $(".div-projects-container").removeClass('with-image-' + project);
-      })
+      if (window.innerWidth > 766) {
+        $(".project").hover(function() {
+          var project = this.innerText;
+          project = project.split(" ").join("_");
+          project = project.split(".").join("");
+          $(".div-projects-container").addClass('with-image-' + project);
+        }, function() {
+          var project = this.innerText;
+          project = project.split(" ").join("_");
+          project = project.split(".").join("");
+          $(".div-projects-container").removeClass('with-image-' + project);
+        })
+      }
     })
 
     function setLogo() {
