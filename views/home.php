@@ -81,9 +81,13 @@
           </div>
         </a>
       </div>
-      <div class="menu-elements" style="float:right">
-        <a href="/contact" class="nav-link">Contact</a>
-        <a href="/a-propos" class="nav-link">À propos</a>
+      <div class="menu-elements" style="float:right; padding-top: 15px; padding-right: 15px">
+        <table>
+          <tr>
+            <td><a href="/contact" class="nav-link">Contact</a></td>
+            <td><a href="/a-propos" class="nav-link">À propos</a></td>
+          </tr>
+        </table>
       </div>
       <div class="menu-elements-mb" style="float:right; margin-top: 15px; margin-right: 15px">
         <div class="bar1" style="background-color: #979797"></div>
