@@ -13,6 +13,9 @@ function dispatch($route)
             return 'contact.php';
         case (strcmp($route, "/merci") === 0):
             return 'merci.php';
+        case (strcmp($route, "/test") === 0):
+            return 'test.php';
+        
         default:
             return '404.php';
     }

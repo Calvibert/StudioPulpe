@@ -26,28 +26,84 @@
 
   <!-- main site -->
   <div id="home" class="site-container">
-    <div data-collapse="tiny" data-animation="default" data-duration="400" class="navbar w-nav">
-      <a href="/" id="stopvideo" class="brand w-nav-brand w--current">
-        <div style="display:none" class="letters-container">
-          <img id="logo-p" style="opacity:0" src="/images/p_1_Default.png" alt="" class="letter-p1">
-          <img id="logo-u" style="opacity:0" src="/images/u_Default.png" alt="" class="letter-u">
-          <img id="logo-l" style="opacity:0" src="/images/l_Default.png" alt="" class="letter-l">
-          <img id="logo-p2" style="opacity:0" src="/images/p_2_Default.png" alt="" class="letter-p2">
-          <img id="logo-e" style="opacity:0" src="/images/e_Default.png" alt="" class="letter-e">
-          <img id="logo-virgule" style="opacity:0" src="/images/_Default.png" alt="" class="coma">
-        </div>
-      </a>
-      <nav role="navigation" class="nav-menu w-nav-menu">
-        <a href="/a-propos" id="stopvideo-about" data-w-id="d7075c52-82ca-d741-0331-9c17b0ecac46" class="nav-link w-nav-link">à Propos</a>
-        <a href="/contact" id="stopvideo-contact" data-w-id="d7075c52-82ca-d741-0331-9c17b0ecac48" class="nav-link w-nav-link">Contact</a>
-      </nav>
-      <div data-w-id="d7075c52-82ca-d741-0331-9c17b0ecac4a" class="menu-button w-nav-button" data-ix="menu-button">
-        <div class="top-line"></div>
-        <div class="middle-line"></div>
-        <div class="bottom-line"></div>
+
+    <script src="https://d1tdp7z6w94jbb.cloudfront.net/js/jquery-3.3.1.min.js" type="text/javascript" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <style>
+      .bar {
+        width: 35px;
+        height: 5px;
+        background-color: black;
+        margin: 6px 0;
+      }
+
+      .menu-elements-mb {
+        display: inline-block;
+        cursor: pointer;
+      }
+
+      .bar1,
+      .bar2,
+      .bar3 {
+        width: 35px;
+        height: 5px;
+        background-color: #333;
+        margin: 6px 0;
+        transition: 0.4s;
+      }
+
+      /* Rotate first bar */
+      .change .bar1 {
+        -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+        transform: rotate(-45deg) translate(-9px, 6px);
+      }
+
+      /* Fade out the second bar */
+      .change .bar2 {
+        opacity: 0;
+      }
+
+      /* Rotate last bar */
+      .change .bar3 {
+        -webkit-transform: rotate(45deg) translate(-8px, -8px);
+        transform: rotate(45deg) translate(-8px, -8px);
+      }
+    </style>
+    <div class="navbar-navbaryo" style="position:relative; z-index:100">
+      <div class="logo" style="float:left; margin-top:15px; margin-left: 15px">
+        <a href="/">
+          <div style="display:none" class="letters-container">
+            <img id="logo-p" style="opacity:0" src="/images/p_1_Default.png" alt="" class="letter-p1">
+            <img id="logo-u" style="opacity:0" src="/images/u_Default.png" alt="" class="letter-u">
+            <img id="logo-l" style="opacity:0" src="/images/l_Default.png" alt="" class="letter-l">
+            <img id="logo-p2" style="opacity:0" src="/images/p_2_Default.png" alt="" class="letter-p2">
+            <img id="logo-e" style="opacity:0" src="/images/e_Default.png" alt="" class="letter-e">
+            <img id="logo-virgule" style="opacity:0" src="/images/_Default.png" alt="" class="coma">
+          </div>
+        </a>
+      </div>
+      <div class="menu-elements" style="float:right">
+        <a href="/contact" class="nav-link">Contact</a>
+        <a href="/a-propos" class="nav-link">À propos</a>
+      </div>
+      <div class="menu-elements-mb" style="float:right; margin-top: 15px; margin-right: 15px">
+        <div class="bar1" style="background-color: #979797"></div>
+        <div class="bar2" style="background-color: #979797"></div>
+        <div class="bar3" style="background-color: #979797"></div>
+      </div>
+      <div class="menu-elements-mb-dropdown" style="float: right; margin-top: 10px; margin-right: -25px; background: #000; width: 120%; opacity: 0;">
+        <table>
+          <tr>
+            <div class="menu-item" style="color: #fff; float: right; padding-right: 50px; position: relative; padding: 10px 50px"><a href="/contact" class="nav-link">Contact</a></div>
+            <br><br><br>
+          </tr>
+          <tr>
+            <div class="menu-item" style="color: #fff; float: right; padding-right: 50px; position: relative; padding: 10px 50px"><a href="/a-propos" class="nav-link">À propos</a></div>
+          </tr>
+        </table>
       </div>
     </div>
-    <div class="hero">
+
+    <div class="hero" style="">
       <div class="div-projects-container">
         <div class="projects-header">
           <div class="text-block">Projets</div>
@@ -103,7 +159,7 @@
   <script>
     $(function() {
       var iframe = $('#vi-banner-video')[0];
-      var player = $f(iframe);
+      var player = $(iframe);
       player.addEvent('ready', function() {
         player.addEvent('finish', onFinish);
         player.api('setVolume', 0);
@@ -183,6 +239,34 @@
       $("#logo-virgule").fadeTo(1600, 1);
     }
   </script>
+  <script>
+    $(document).ready(function() {
+      if (window.innerWidth < 600) {
+        $(".menu-elements").hide();
+        $(".menu-elements-mb-dropdown").hide();
+        $(".menu-elements-mb").show();
+      } else {
+        $(".menu-elements").show();
+        $(".menu-elements-mb-dropdown").hide();
+        $(".menu-elements-mb").hide();
+      }
+
+      $(".menu-elements-mb").on('click', function() {
+        if ($(".menu-elements-mb-dropdown").css("opacity") < 1) {
+          // appear
+          $(".menu-elements-mb").addClass("change");
+          $(".menu-elements-mb-dropdown").fadeTo(500, 1);
+        } else {
+          // disappear
+          $(".menu-elements-mb").removeClass("change");
+          $(".menu-elements-mb-dropdown").fadeTo(500, 0);
+          $(".menu-elements-mb-dropdown").hide();
+        }
+
+      });
+    });
+  </script>
+
 </body>
 
 </html>
