@@ -3,7 +3,7 @@
 
 <?php require('./views/components/head.html'); ?>
 
-<body class="body">
+<body class="body" style="overflow:hidden">
   <!-- video intro -->
   <div id="preload" class="preload-container">
     <div class="preload">
