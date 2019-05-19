@@ -5,19 +5,7 @@
 
 <body class="body">
     <div class="project__fixed-overlay">
-        <div data-collapse="tiny" data-animation="default" data-duration="400" class="navbar w-nav">
-            <a href="/" id="stopvideo" class="brand w-nav-brand w--current">
-                <?php require("./views/components/logo.html") ?>
-            </a>
-            <nav role="navigation" class="nav-menu w-nav-menu">
-                <a href="/a-propos" id="stopvideo-about" class="nav-link w-nav-link">à Propos</a>
-                <a href="/contact" id="stopvideo-contact" class="nav-link w-nav-link">Contact</a>
-            </nav>
-            <div class="menu-button w-nav-button" data-ix="menu-button">
-                <div class="top-line"></div>
-                <div class="middle-line"></div>
-                <div class="bottom-line"></div>
-            </div>
+        <?php require('./views/components/topmenu.html'); ?>
         </div>
         <div class="project-wrapper">
             <div class="div-tile full">
