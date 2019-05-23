@@ -163,7 +163,7 @@
   <script>
     $(function() {
       var iframe = $('#vi-banner-video')[0];
-      var player = $(iframe);
+      var player = $f(iframe);
       player.addEvent('ready', function() {
         player.addEvent('finish', onFinish);
         player.api('setVolume', 0);
